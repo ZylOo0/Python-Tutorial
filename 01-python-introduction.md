@@ -2,7 +2,7 @@
 
 ## Python 与人工智能
 
-既然你来到了这里，我相信你一定对人工智能十分感兴趣。而 Python 正是人工智能领域的主要编程语言，当今的主流深度学习框架全部提供了 Python 库，例如 PyTorch 和 Tensorflow 等等。从科研界到生产界，Python 已经成为了共识。可以说，想要从事人工智能的相关工作，Python 是必须学习的一项前置技能。
+既然你来到了这里，我相信你一定对人工智能十分感兴趣。而 Python 正是人工智能领域的主要编程语言，当今的主流深度学习框架全部提供了 Python 库，例如 PyTorch 和 TensorFlow 等等。从科研界到生产界，Python 已经成为了共识。可以说，想要从事人工智能的相关工作，Python 是必须学习的一项前置技能。
 
 ## Python 能做什么
 
@@ -13,7 +13,7 @@ Python 的应用领域十分广泛，主要有如下方面：
 + 数据分析和可视化：使用 Pandas 和 Matplotlib 等第三方库，解决数据处理的一切需求。
 + Web应用开发：使用 Django 和 Flask 等 Web 开发框架，高效灵活地开发网站。
 
-Python 的更多应用，在 Github 的高 Star 仓库 [awesome-python](https://github.com/vinta/awesome-python]) 中都有归纳。总而言之，Python 是一门无所不能的编程语言。
+Python 的更多应用，在 GitHub 的高 Star 仓库 [awesome-python](https://github.com/vinta/awesome-python]) 中都有归纳。总而言之，Python 是一门无所不能的编程语言。
 
 下面是一些简单的样例，选中代码块并点击运行按钮，你就可以看到运行结果了。
 
@@ -65,10 +65,12 @@ for i in tqdm(a):
 
 ## 怎么学 Python
 
-答案是自己动手。不仅是 Python，学习任何一项编程技术都需要勤于动手，自己把代码敲一遍、运行一遍，胜过你看十遍。Python 的运行方式有两种，交互式和脚本式，在我们的 OneFlow 智能云平台都可以运行。你现在打开的是一个 Jupyter Notebook 文件，它正是通过交互式的方式运行 Python 程序。它的优点在于完全按照顺序组织内容，也能够快速地反馈运行结果。因此，Notebook 能够极大方便你的学习，本系列从 Notebook 交互式运行开始，后续也会逐步介绍脚本式运行。
+答案是自己动手。不仅是 Python，学习任何一项编程技术都需要勤于动手，自己把代码敲一遍、运行一遍，胜过你看十遍。
+
+Python 的运行方式有两种，交互式和脚本式，OneFlow 智能云平台都支持。你现在打开的是一个 Jupyter Notebook 文件，也正在进行 “Python 交互式编程”。本系列从 Notebook 交互式编程开始介绍 Python，后续也会介绍 Python 脚本式编程。
 
 ## 本项目的文件组织形式
 
-本项目共有xx个 Notebook，我们并没有按照专题来整理 Python 的知识点，而是为初学者定制化地设计了一套教程。你只需要按照顺序依次学习，就能够顺利地掌握 Python 这门语言，而不必苦于记忆繁琐的细节和暂时用不到的知识。
+我们设计了一套针对初学者的动手学 Python 教程，每个“动手学 Python”的项目中都有若干个 Notebook 文件（`xxx.ipynb`），每个 `ipynb` 文件对应一个必备的 Python 知识点，点开即可边学边练。你只需要按照顺序学习，就能够顺利地掌握 Python 这门语言，而不必苦于记忆繁琐的细节和暂时用不到的知识。
 
 还等什么，赶紧打开下一个文件，正式开始学习吧！
