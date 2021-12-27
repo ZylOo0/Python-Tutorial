@@ -37,19 +37,6 @@ plt.plot(t2, np.cos(2*np.pi*t2), 'r--')
 plt.show()
 ```
 
-我们也可以加载第三方库中的数据集，并绘制热力图：
-```python
-import matplotlib.pyplot as plt
-import seaborn as sns
-sns.set_theme()
-
-flights_long = sns.load_dataset("flights")
-flights = flights_long.pivot("month", "year", "passengers")
-
-f, ax = plt.subplots(figsize=(9, 6))
-sns.heatmap(flights, annot=True, fmt="d", linewidths=.5, ax=ax)
-```
-
 我们还可以给程序设置进度条，方便我们观察运行的进度：
 ```python
 import time
