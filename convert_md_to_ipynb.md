@@ -1,5 +1,7 @@
 # 如何将md文件转换为ipynb文件
 
+docs.oneflow.org 中的基础专题，同时也被放到了 oneflow.cloud 中作为 Jupyter 项目。docs.oneflow.org 中的内容是 markdown 写的，因此有将 markdown 转为 Jupyter Notebook 的需求。
+
 首先，我们需要为 Jupyter Notebook 安装一个插件 Jupytext。打开命令行，输入以下命令来安装：
 
 ```
