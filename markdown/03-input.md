@@ -52,9 +52,9 @@ num1 = input("Please enter a number: ")
 num1 + 1
 ```
 
-这是因为，`input` 获取的输入内容是字符串类型的，`num1` 变量其实是一个字符串，而不是数字。数字运算只能在数字类型的数据之间进行，
+这是因为，`input` 获取的输入内容是字符串类型的，`num1` 变量其实是一个字符串，而不是数字。数字运算只能在数字类型的数据之间进行。
 
-## 内置函数 int、float 和 str
+## 字符串和数字的转换
 
 既然 `input` 函数只能获取字符串，那怎么来得到数字呢？
 
@@ -62,7 +62,7 @@ num1 + 1
 
 ```python
 num1 = int(num1)
-print(num1)
+num1
 ```
 
 这里将 `num1` 传入 `int` 函数中，函数返回一个整数型数字，并重新将变量 `num1` 的值修改为该数字。
@@ -73,19 +73,31 @@ print(num1)
 num1 + 1
 ```
 
+`int` 还可以转换其他进制的字符串为数字，只需要多传递一个参数，表示进制即可：
+
+```python
+num2 = int("0x20", 16)
+num2
+```
+
+```python
+num3 = int("0o123", 8)
+num3
+```
+
 `int` 返回的是整型的数字，也就是整数，另一个内置函数 `float` 则会返回浮点型的数字，也就是小数：
 
 ```python
-num2 = '3.14159'
-num2 = float(num2)
-print(num2)
+num4 = '3.14159'
+num4 = float(num4)
+num4
 ```
 
 反过来，将字符串转换为数字也是可以的，我们需要用到内置函数 `str`：
 
 ```python
-num2 = str(num2)
-print(num2)
+num4 = str(num4)
+num4
 ```
 
 本课中你学会了：
